@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <a
-    v-bind:href="link"
+  <router-link
+    :to="link"
     class="group flex w-full items-end gap-2.5 rounded-md border-2 border-gray-800 bg-gray-900 p-4 transition-all duration-300 hover:border-gray-700 hover:bg-gray-800"
   >
     <svg
@@ -52,5 +52,5 @@
     >
       {{ title }}
     </span>
-  </a>
+  </router-link>
 </template>
