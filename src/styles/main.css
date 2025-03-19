@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
 :root {
   --default-light: #f3f4f6;
@@ -19,18 +17,18 @@ body {
   background-color: var(--default-dark);
   color: var(--default-light);
   font-family:
-    "Inter var experimental",
-    "Inter var",
+    'Inter var experimental',
+    'Inter var',
     Inter,
     -apple-system,
     BlinkMacSystemFont,
-    "Segoe UI",
+    'Segoe UI',
     Roboto,
     Oxygen,
     Ubuntu,
     Cantarell,
-    "Fira Sans",
-    "Droid Sans",
-    "Helvetica Neue",
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
     sans-serif;
 }
