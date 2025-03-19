@@ -26,7 +26,7 @@
     type="button"
     v-else-if="operation === 'clear'"
     title="clear"
-    className="bg-gray-900 flex justify-center items-center rounded-sm py-4 hover:bg-gray-800 transition-all duration-100"
+    className="bg-gray-800 flex justify-center items-center rounded-sm py-4 hover:bg-gray-900 transition-all duration-100"
   >
     <span className="sr-only">clear</span>
     <span className="space-grotesk-500 text-base">C</span>
@@ -35,7 +35,7 @@
     type="button"
     v-else-if="operation === 'clear-all'"
     title="clear-all"
-    className="bg-gray-900 flex justify-center items-center rounded-sm py-4 hover:bg-gray-800 transition-all duration-100"
+    className="bg-gray-800 flex justify-center items-center rounded-sm py-4 hover:bg-gray-900 transition-all duration-100"
   >
     <span className="sr-only">clear all</span>
     <span className="space-grotesk-500 text-base">AC</span>
@@ -61,7 +61,7 @@
     type="button"
     v-else-if="operation === 'eval'"
     title="evaluate"
-    className="bg-gray-900 flex justify-center items-center rounded-sm py-4 hover:bg-gray-800 transition-all duration-100"
+    className="bg-sky-600 flex justify-center items-center rounded-sm py-4 hover:bg-sky-500 transition-all duration-100"
   >
     <span className="sr-only">Evaluate</span>
     <span className="space-grotesk-500 text-2xl text-gray-100"> = </span>
