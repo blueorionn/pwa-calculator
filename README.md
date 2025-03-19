@@ -1,5 +1,19 @@
-# Vue 3 + TypeScript + Vite
+# PWA Calculator
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A Progressive Web App (PWA) Calculator built using Vue 3 and Vite. This application provides essential calculator functionalities, including basic arithmetic operations, scientific calculations, unit conversions, and number system conversions (binary, octal, hexadecimal, and decimal). It is designed to be installable, offline-ready, and fast for a seamless user experience.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- Basic Calculator
+
+- Scientific Calculator
+
+- Unit Conversion
+
+- Number System Conversion (Binary, Octal, Hexadecimal, Decimal)
+
+- PWA Support (Offline & Installable)
+
+## License
+
+This project is licensed under the Apache 2.0 License.
